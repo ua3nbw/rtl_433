@@ -91,7 +91,7 @@ r_device hideki_ts04 = {
     .long_limit     = 260, // not used
     .reset_limit    = 1000,
     .json_callback  = &hideki_ts04_callback,
-    .disabled       = 0,
+    .disabled       = 1,
     .demod_arg     = (unsigned long)&hideki_ts04_clock_bits_parameters,
     .fields         = output_fields,
 };
