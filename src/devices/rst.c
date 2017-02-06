@@ -47,15 +47,15 @@ uint8_t csum = 0;
               br[i] ^= br[i] << 1;
                 }
 
- // fprintf (stdout, " checksum  =  %02x ", csum); 
+  
 
 if(csum !=0){
 				return 0;
 		}
                                  
   
-//fprintf(stderr, "\n!!! ");
-//bitbuffer_print(bitbuffer);
+
+
 
     time(&time_now);
     local_time_str(time_now, time_str);
